@@ -20,10 +20,9 @@
 8.	Stwórz nowe repozytorium i wyślij tam swoje zadanie, link do niego wklej poniżej
 pamiętaj o udostępnieniu repozytorium swojemu mentorowi.
 */
-
 var buttonClassElements = document.getElementsByClassName('button');
 var buttonClassElementsNumber = buttonClassElements.length;
-	for (i = 0; i < buttonClassElementsNumber; i++) {
-		var buttonClassElementsText = buttonClassElements[i].innerText;
-		console.log("Treść w CLASS .button: " + buttonClassElementsText);
+    for (i = 0; i < buttonClassElementsNumber; i++) {
+        var buttonClassElementsText = buttonClassElements[i].innerText;
+        console.log(buttonClassElementsText);
 	}
